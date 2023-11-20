@@ -1,10 +1,7 @@
 name: Build & Tests
 # test for nondeterminism
 
-on:
-  pull_request:
-  push:
-  merge_group:
+on: push
 
 permissions: read-all
 
